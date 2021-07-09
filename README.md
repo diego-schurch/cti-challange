@@ -1,6 +1,5 @@
 # cti-challange
-CTI Challange
-A script that accepts as an input a log file and exports a CSV with logs and extra information.
+Script that accepts as an input a log file and exports a CSV with logs and extra information.
 
 ## Running Locally
 For running locally place a log file into the `/data` folder and run the following command
