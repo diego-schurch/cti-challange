@@ -59,12 +59,11 @@ fs
                     const geoDbResponse = geoDbReader.city(logData.remoteHost);
 
                     if (geoDbResponse.subdivisions) {
-                        const { subdivisions: [{ isoCode: stateName }] } = geoDbResponse;
-                        data.state = stateName;
+                        data.state = geoDbResponse.subdivisions[0].isoCode;
                     }
-                    if (geoDbResponse.isoCode) {
-                        const { country: { isoCode: countryName } } = geoDbResponse;
-                        data.country = countryName;
+
+                    if (geoDbResponse.country) {
+                        data.country = geoDbResponse.country.isoCode
                     }
 
                 } catch (error) {
