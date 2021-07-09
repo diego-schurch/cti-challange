@@ -1,0 +1,2 @@
+deviceType,browser,state,country,isBot,remoteHost,logname,remoteUser,time,request,status,sizeCLF,RequestHeader Referer,RequestHeader User-agent
+desktop,Chrome,No State found in the DB,No Country found in the DB,NO,207.114.153.6,-,-,10/Jun/2015:18:14:56 +0000,GET /favicon.ico HTTP/1.1,200,0,http://www.gobankingrates.com/banking/find-cds-now/,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
